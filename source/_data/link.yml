@@ -1,0 +1,19 @@
+- class_name: 1.网站框架
+  class_desc: 本网站的搭建由以下开源作者提供框架
+  link_list: 
+    - name: Hexo 
+      link: https://hexo.io/zh-cn/
+      avatar: https://cdn.simpleicons.org/hexo#0E83CD
+      descr: 快速、简单且强大的博客框架
+    - name: Butterfly主题
+      link : https://github.com/jerryc127/hexo-theme-butterfly
+      descr: 漂亮、简单的网站主题
+      
+- class_name: 2.资源支持
+  class_desc: 本网站由以下服务商无偿部署
+  link_list:
+    - name: Vercel
+      link: https://vercel.com/
+      avatar: https://cdn.simpleicons.org/vercel
+      descr: 一个简单、免费的部署网站（好东西）
+    
