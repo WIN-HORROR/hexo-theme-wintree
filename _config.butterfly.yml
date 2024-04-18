@@ -51,17 +51,17 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature
+index_img: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
 
 # The banner image of archive page
-archive_img: http://images.win-horror.eu.org/file/ff8ca8312f0f993f5373e.jpg
+archive_img: https://cdn.pixabay.com/photo/2017/07/03/20/17/colorful-2468874_1280.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: http://images.win-horror.eu.org/file/213cae3bb5604c434f88b.jpg
+tag_img: https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_1280.jpg
 
 # The banner image of tag page
 # format:
@@ -70,7 +70,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: http://images.win-horror.eu.org/file/213cae3bb5604c434f88b.jpg
+category_img: https://cdn.pixabay.com/photo/2023/11/26/08/27/leaves-8413064_1280.jpg
 
 # The banner image of category page
 # format:
@@ -87,7 +87,14 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-     - https://img.xjh.me/random_img.php?type=bg&ctype=nature
+     - https://cdn.pixabay.com/photo/2023/11/26/08/27/leaves-8413064_1280.jpg
+     - https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_1280.jpg
+     - https://cdn.pixabay.com/photo/2017/07/03/20/17/colorful-2468874_1280.jpg
+     - https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg
+     - https://cdn.pixabay.com/photo/2024/02/17/11/45/moon-8579189_1280.jpg
+     - https://cdn.pixabay.com/photo/2024/02/13/12/56/bird-8570950_1280.jpg
+     - https://cdn.pixabay.com/photo/2017/08/24/03/41/starry-sky-2675322_1280.jpg
+     - https://cdn.pixabay.com/photo/2022/02/28/15/28/sea-7039471_1280.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -98,7 +105,7 @@ error_img:
 error_404:
   enable: true
   subtitle: '页面呢？再看看？'
-  background: https://img.xjh.me/random_img.php?type=bg&ctype=nature
+  background: https://cdn.pixabay.com/photo/2022/02/28/15/28/sea-7039471_1280.jpg
 
 post_meta:
   page: # Home Page
@@ -913,9 +920,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <script defer src="/js/cursor.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
