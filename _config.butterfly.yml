@@ -34,7 +34,8 @@ code_word_wrap: true
 social:
    fab fa-github: https://github.com/WIN-HORROR || Github || '#24292e'
    fas fa-envelope: mailto:win_tree@163.com || 邮箱 || '#4a7dbe'
-   fas fa-bilibili: https://space.bilibili.com/1357155193 || B站 || '#00a1d6'   
+   fab fa-bilibili: https://space.bilibili.com/1357155193 || B站 || '#00a1d6'
+   fab fa-qq: https://tool.gljlw.com/qq/?qq=256814436 || QQ
 
 # Image (圖片設置)
 # --------------------------------------
