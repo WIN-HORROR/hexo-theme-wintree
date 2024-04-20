@@ -225,7 +225,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 吃货🍔平时爱瞎搞🦽
+    description: 一名11岁的小学生👦吃货🍔平时爱瞎搞🦽
     button:
       enable: true
       icon: # fab fa-github
@@ -767,6 +767,7 @@ subtitle:
     - 祝你拥有美好的一天！🥂
     - 魔改这玩意儿可累死我了🍔
     - 我还有个名字叫WIN-HORROR！
+    - 我是一名11岁的小学生哦！
 
 # Loading Animation (加載動畫)
 preloader:
