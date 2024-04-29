@@ -1,19 +1,32 @@
 - class_name: 1.网站框架
-  class_desc: 本网站的搭建由以下开源作者提供框架
+  class_desc: 本网站的搭建得益于以下框架
   link_list: 
     - name: Hexo 
       link: https://hexo.io/zh-cn/
-      avatar: https://cdn.simpleicons.org/hexo#0E83CD
+      avatar: https://bucket-1.s3.bitiful.net/icons/hexo.svg
       descr: 快速、简单且强大的博客框架
     - name: Butterfly主题
       link : https://github.com/jerryc127/hexo-theme-butterfly
-      descr: 漂亮、简单的网站主题
+      avatar: https://bucket-1.s3.bitiful.net/icons/hexo.svg
+      descr: A Simple and Card UI Design theme for Hexo
       
-- class_name: 2.资源支持
-  class_desc: 本网站由以下服务商无偿部署
+- class_name: 2.技术支持
+  class_desc: 本网站大部分魔改/主题出自以下作者
   link_list:
-    - name: Vercel
-      link: https://vercel.com/
-      avatar: https://cdn.simpleicons.org/vercel
-      descr: 一个简单、免费的部署网站（好东西）
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://sourcebucket.s3.bitiful.net/img/avatar.webp
+      descr: Future is now 🍭🍭🍭
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://lskypro.acozycotage.net/LightPicture/2022/12/6bf1ed05796db59c.jpg
+      descr: 🍭Akilarの糖果屋
+    - name: ☕张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/blog.zhheo.com.jpg
+      descr: 爱折腾的设计师
+    - name: JerryC
+      link: https://crazywong.com/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/crazywong.com.jpg
+      descr: Bufferfly主题作者
     
